@@ -1,0 +1,170 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('idroid.otf') format(opentype);
+}
+
+body {
+    background-image: linear-gradient(to right, #3CA6A6, #3ca6a6c9);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header{
+    background-image: linear-gradient(to bottom, #0249598c, #024959);
+    color: white;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 5px 8px #012e406e;
+    
+}
+header > h1 {
+    padding-top: 25px;
+    font-size: 1.8em;
+}
+
+header > p{
+    padding-bottom: 17px;
+    padding-top: 10px;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header > nav {
+    text-align: left;
+}
+nav > a {
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    padding-right: 1px;
+    margin: 10px;
+    
+}
+nav > a:hover{
+    background-color: #F2E3D5;
+    color: #012E40;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+main{
+    width: 1000px; /* largura da sua main */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-left: auto; /* Margem esquerda automática */
+    margin-right: auto; /* Margem direita automática */
+    color: black;   
+    text-align: justify; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+main > h2 {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: #012E40;
+    font-weight: 900;
+    font-size: 1.6em;
+}
+main > h3 {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: #012E40;
+    font-weight: 900;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, #0268731c, #F2E3D5);
+    width: 350px;
+}
+main > p {
+    text-indent: 20px;
+}
+picture{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+.video-alinhamento {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.video-alinhamento iframe{
+    width: 935px;
+    height: 431px;
+    
+}
+footer{
+    width: 1000px; /* largura da sua main */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-left: auto; /* Margem esquerda automática */
+    margin-right: auto; /* Margem direita automática */
+    color: black;   
+    text-align: justify; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+     
+}
+
+.extra-box{
+    background-color: #3ca6a618;
+    padding: 15px;
+    font-size: 0.9em;
+    width: 800px;
+    margin-left: 50px;
+    box-shadow: 5px 5px 10px #012e4046;
+}
+
+.extra-box > h2{
+    background-color: #012E40;
+    color: white;
+    font-size: 1.4em;
+    padding: 8px;
+}
+
+.extra-box > p {
+    text-indent: 20px;
+}
+.ul-central {
+    display: flex;
+}
+.left, .right {
+    flex: 1; /* Faz com que as duas divs ocupem a mesma largura */
+    padding: 10px;
+    
+}
+
+ul {
+    
+    padding: 0;
+}
+footer > p {
+    text-indent: 20px;
+}
+.rodape{
+    background-color: #012E40;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    font-size: 0.9em;
+    padding: 5px;
+    text-align: center;
+    
+    }
+span{
+    font-weight: bolder;
+    font-size: 1.2em;
+}
